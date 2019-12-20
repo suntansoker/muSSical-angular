@@ -5,17 +5,17 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeModule } from './home/home.module';
 import { LessonOneModule } from './lessons/lesson1/lesson1.module';
-// import { LessonOneComponent } from './lessons/lesson1/lesson1.component';
+import { LessonOneComponent } from './lessons/lesson1/lesson1.component';
 import { LessonTwoModule } from './lessons/lesson2/lesson2.module';
-// import { LessonTwoComponent } from './lessons/lesson2/lesson2.component';
+import { LessonTwoComponent } from './lessons/lesson2/lesson2.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    // LessonOneComponent,
-    // LessonTwoComponent,
+    LessonOneComponent,
+    LessonTwoComponent,
     AboutComponent,
     ContactComponent
   ],

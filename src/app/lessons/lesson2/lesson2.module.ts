@@ -8,7 +8,7 @@ import { LessonTwoFourComponent } from './lesson2_4.component';
 
 @NgModule({
   declarations: [
-    LessonTwoComponent,
+    // LessonTwoComponent,
     LessonTwoTwoComponent,
     LessonTwoThreeComponent,
     LessonTwoFourComponent
