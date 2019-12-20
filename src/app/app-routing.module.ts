@@ -13,16 +13,13 @@ const appRoutes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'lesson1', component: LessonOneComponent },
   { path: 'lesson2', component: LessonTwoComponent }
-  // { path: 'customers', 
-  //   loadChildren: () => import('./customers/customers.module').then(m => m.CustomersModule),
-  //   canLoad: [ CustomersLoadGuardService ]
-  // },
 ];
 
 @NgModule({
   imports: [
     RouterModule.forRoot(appRoutes,{
-      scrollPositionRestoration: 'enabled'
+      scrollPositionRestoration: 'enabled',
+      useHash:true
     })
   ],
   exports: [ RouterModule ]
