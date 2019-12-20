@@ -14,6 +14,8 @@ import { ContactComponent } from './contact/contact.component';
 @NgModule({
   declarations: [
     AppComponent,
+    LessonOneComponent,
+    LessonTwoComponent,
     AboutComponent,
     ContactComponent
   ],
@@ -25,10 +27,6 @@ import { ContactComponent } from './contact/contact.component';
     LessonTwoModule
   ],
   providers: [],
-  bootstrap: [AppComponent,
-    AboutComponent,
-    ContactComponent,
-    LessonOneComponent,
-    LessonTwoComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
