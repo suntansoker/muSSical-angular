@@ -1,0 +1,62 @@
+#carousel .container img{
+	display: block;
+	margin: auto;
+	max-width:100%;
+}
+
+#about-section .container{
+	max-width: 1000px;
+	border: 1px solid #eee;
+	border-radius: 2px;
+	padding: 0.5rem 2rem;
+	/* min-height: 91vh; */
+}
+
+#about-section .about-info{
+	display: flex;
+	padding: 1rem;
+}
+
+#about-section .about-info #about-profilepic{
+	flex:1;
+	max-height:100%;
+}
+
+#about-section .about-info #about-textcontent{
+	flex:2;
+	text-align: left;
+	min-height:100%;
+	padding: 0 0.2rem;
+}
+
+#about-section .about-info #about-textcontent h2{
+	font-size: 2.5rem;
+}
+
+#about-section .about-info #about-profilepic img{
+	display: block;
+	margin: auto;
+	width:50%;
+	border-radius:50%;
+}
+
+@media screen and (max-width:760px){
+    #about-section .about-info{
+        display: inline-block;
+        padding: 1rem;
+        min-height: 505px;
+    }
+
+    #about-section .about-info #about-textcontent h2{
+	font-size: 1.75rem;
+	line-height:1.2;
+}
+    
+    #about-section .about-info #about-profilepic img{
+        /* display: inline-block; */
+        /* margin: auto; */
+        width:30%;
+        /* border-radius:50%; */
+    }
+}
+

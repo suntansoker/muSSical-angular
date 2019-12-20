@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "muSSicalv2": {
+    "muSSical-v2": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/muSSicalv2",
+            "outputPath": "dist/muSSical-v2",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -58,18 +58,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "muSSicalv2:build"
+            "browserTarget": "muSSical-v2:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "muSSicalv2:build:production"
+              "browserTarget": "muSSical-v2:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "muSSicalv2:build"
+            "browserTarget": "muSSical-v2:build"
           }
         },
         "test": {
@@ -106,15 +106,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "muSSicalv2:serve"
+            "devServerTarget": "muSSical-v2:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "muSSicalv2:serve:production"
+              "devServerTarget": "muSSical-v2:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "muSSicalv2"
+  "defaultProject": "muSSical-v2"
 }

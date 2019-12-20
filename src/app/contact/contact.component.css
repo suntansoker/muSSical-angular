@@ -1,0 +1,70 @@
+#carousel .container img{
+	display: block;
+	margin: auto;
+	max-width:100%;
+}
+
+#contact-section{
+	margin:2rem 0;
+}
+#contact-section .container{
+	max-width: 600px;
+	/* border: 1px solid #eee; */
+	/* border-radius: 2px; */
+	padding: 0.5rem 2rem;
+}
+#contact-section .container #contact-heading h2{
+	font-size: 2.5rem;
+}
+
+#contact-section .container #form-details{
+	margin-top:1rem;
+	border: 1px solid #eee;
+	border-radius: 2px;
+	background-color: #0991e6;
+	color:#fff;
+}
+#contact-section .container #form-details h3{
+	font-size: 1.75rem;
+}
+
+#contact-section .container #form-details .form-grp{
+	margin:1rem;
+	text-align:left;
+}
+
+#contact-section .container #form-details label{
+	display:block;
+	color:#fff;
+	font-size: 1.2rem;
+	line-height: 1.2;
+}
+
+#contact-section .container #form-details #submit{
+	margin:0;
+}
+
+#contact-section .container #form-details input,
+#contact-section .container #form-details textarea{
+	font-size: 1.2rem;
+	line-height: 1.2;
+	width:100%;
+	padding: 0.75rem;
+}
+
+@media screen and (max-width: 760px){
+    #contact-section .container #contact-heading h2{
+        font-size: 1.75rem;
+        line-height:1.2;
+    }
+
+    #contact-section .container #form-details h3{
+        font-size: 1.2rem;
+    }
+    
+    #contact-section .container #form-details label,
+    #contact-section .container #form-details input,
+    #contact-section .container #form-details textarea{
+        font-size:1rem;
+    }
+}

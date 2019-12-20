@@ -1,0 +1,101 @@
+#carousel .container img{
+	display: block;
+	margin: auto;
+	max-width:100%;
+}
+
+
+#about{
+	margin:auto;
+	padding: 0.5rem 2rem;
+	text-align:center
+}
+
+#about .container{
+	max-width: 600px;
+	border: 1px solid #eee;
+	border-radius: 2px;
+	padding: 0.5rem 2rem;
+}
+
+#about-header{
+    font-size: 2rem;
+    /* margin-bottom:0.75rem; */
+    line-height: 1.2;
+}
+
+#about .text-content{
+	font-size: 1.2rem;
+	line-height: 1.2;
+}
+
+.primary-heading,
+.lesson-heading{
+	font-size: 2rem;
+	line-height:1.2;
+}
+
+#lesson-section .lessons{
+	display: flex;
+	padding: 1rem;
+}
+
+#lesson-section .lessons .lesson{
+	flex:1;
+	text-align:center;
+	padding: 1rem;
+	border: 1px solid #eee;
+}
+
+#lesson-section .lessons .lesson i,
+.card .icon i{
+	background: #0991e6;
+	padding: 1rem;
+	border-radius: 50%;
+	margin-bottom: 1rem;
+}
+
+.card .card-text .img-fluid{
+	display: block;
+	margin: auto;
+	max-width:100%;
+}
+
+@media screen and (max-width:760px){
+	#about .text-content,
+	p{ 
+		font-size: 1rem;
+		margin:0.5rem 0;
+		text-align: left;
+		padding:0 0.5rem;
+	}
+
+	.primary-heading,
+	#about-header,
+	.lesson-heading,
+	#about-section .about-info #about-textcontent h2,
+	#contact-section .container #contact-heading h2{
+		font-size: 1.75rem;
+		line-height:1.2;
+	}
+
+	#lesson-section .lessons{
+		display: block;
+		padding: 0.5rem;
+		
+	}
+
+	#lesson-section .lessons .lesson{
+		display: flex;
+		padding: 1rem;
+		text-align: left;
+		margin-bottom:1rem;
+	}
+
+	#lesson-section .lessons .lesson i
+	{
+		align-self:center;
+		margin-right:1.2rem;
+	}
+
+}
