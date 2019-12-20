@@ -4,16 +4,16 @@
 			muSSical
 		</h1>
 		<ul class="nav-links" #nav>
-			<li (click)="closeMenu()"><a routerLink="">Home</a></li>
+			<li (click)="closeMenu()"><a routerLink="/">Home</a></li>
 			<li (click)="showDropdown()" class="dropdown" #dropdown>Lessons <i class="fa fa-angle-down"></i>
 				<ul (click)="closeMenu()" id="lesson-list" #lessons>
-					<li><a routerLink="lesson1">Lesson 1</a></li>
-					<li><a routerLink="lesson2">Lesson 2</a></li>
+					<li><a routerLink="/lesson1">Lesson 1</a></li>
+					<li><a routerLink="/lesson2">Lesson 2</a></li>
 					<!-- <li><a href="lesson3.html">Lesson 3</a></li> -->
 				</ul>
 			</li>
-			<li (click)="closeMenu()"><a routerLink="about">About</a></li>
-			<li (click)="closeMenu()"><a routerLink="contact">Contact</a></li>
+			<li (click)="closeMenu()"><a routerLink="/about">About</a></li>
+			<li (click)="closeMenu()"><a routerLink="/contact">Contact</a></li>
 		</ul>
 		<div (click)="showMenu()" class="hamburger-menu" #menu>
 			<div class="line1"></div>
