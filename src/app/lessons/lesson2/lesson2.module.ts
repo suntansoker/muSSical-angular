@@ -17,7 +17,6 @@ import { LessonTwoFourComponent } from './lesson2_4.component';
     BrowserModule,
     LessonTwoRoutingModule
   ],
-  providers: [],
-  bootstrap: [LessonTwoComponent]
+  providers: []
 })
 export class LessonTwoModule { }
